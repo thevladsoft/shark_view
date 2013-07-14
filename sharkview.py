@@ -110,7 +110,7 @@ def toglear(u):
       web.hide()
     else:
       web.show()
-  if u==1:
+  if u==1 or u==4:
     
     #frame = web.page().currentFrame()
     #logbuton2 = frame.findFirstElement("""a[data-translate-text="SIGN_IN"][class="btn btn-large btn-primary submit"]""")
@@ -142,9 +142,9 @@ def toglear(u):
 
 
 	
-  if u==4:
-    web.setUrl(QUrl(""))
-    #open_signin(1)
+  #if u==4:
+    #web.setUrl(QUrl(""))
+    ##open_signin(1)
     
 def save_settings():
   global cookie
